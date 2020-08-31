@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+        <script type="text/javascript" src="js/javascript.js"></script>
+        <meta name="viewport" content="width=device-width">
+        <title>Contact Us - Each Journey Matters</title>
+        <meta name="description" content="Get in touch using our contact us form">    </head>
+
+        <body>
+<!--new header-->
+<div class = "container">
+<header class="header">
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <a href="index.html" class="logo"><img src="./images/logo.jpg"></a>
+
+    <ul class="menu">
+        <li><a href="my-story.html">My Story</a></li>
+        <li><a href="blog-main.html">Blog</a></li>
+        <li><a href="barcelona.html">Gallery</a></li>
+        <li><a href="b-and-b.html">B & B</a></li>
+        <li><a href="services-i-offer.html">Services I Offer</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+  </header>
+</div>
+
+<!--<div id="contact-us">
+    <div class = "small-container">
+        <h3>Please get in touch!</h3>
+        <form id = "contact-form">
+            <input type = "text" placeholder = "Name">
+            <input type = "text" placeholder = "Email">
+            <input type = "text" placeholder = "Subject">
+            <input type = "text" placeholder = "Message">
+            <label><input type = "checkbox" value = "check">I agree that my submitted data is being collected and stored.</label>
+            <input type = "submit" value = "Send">
+        </form>
+
+    </div>
+    </div>
+-->
+
+    <div id="contact-us-container">
+        <div class = "text-left">
+            <h3>Please get in touch!</h3>
+                <form id = "contact-form" method=”post” name=”contact_form” action=”/my-handling-form-page”>
+                <input type = "text" placeholder = "Name" name="name">
+                <input type = "text" placeholder = "Email" name="email" required>
+                <input type = "text" placeholder = "Subject" name="subject">
+      <!--<input type = "text" placeholder = "Message" name="message" textarea rows="2" cols="20" wrap="hard">-->
+                <textarea rows="12" cols="10" name="reply" placeholder = "Message" ></textarea>
+                <label><input type = "checkbox" value = "check" name="checkbox">I agree that my submitted data is being collected and stored. Your data will not be submitted to any third party at any time.</label>
+                <input type = "submit" value = "Send" name="submit">
+            </form>
+        </div>
+        <div class = "image-right"></div>
+    </div>
+
+
+    <!--
+    <form name="contactform" method="post" action="send_form_email.php">
+        <h1>This section is for live testing</h1>
+        <table width="450px">
+        <tr>
+         <td valign="top">
+          <label for="first_name">First Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="first_name" maxlength="50" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="last_name">Last Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="last_name" maxlength="50" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="email">Email Address *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="email" maxlength="80" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="telephone">Telephone Number</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="telephone" maxlength="30" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="comments">Comments *</label>
+         </td>
+         <td valign="top">
+          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="2" style="text-align:center">
+          <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+         </td>
+        </tr>
+        </table>
+        </form>
+    -->
+     
+    <div id = "footer">
+        <div id="footer-text">
+            <p>Copyright &copy 2020 Malgorzata Wielogorska<br>
+                <p><a href="mailto:malgorzata.wielogorksa@gmail.com"><span>malgorzata.wielogorska@gmail.com</span></a></p>
+                <div id = "social"><p><a href="https://www.facebook.com/margaret.wu.9081" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/eachjourneymatters/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="mailto:malgorzata.wielogorska@gmail.com"  target="_blank" class="fa fa-envelope"></a></p></div>
+        </div>
+    </div>
+    
+    </body>
+    </html>
